@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Carousel/CarRentalPage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 1400px;
+    height: 550px;
+    margin-left: 100px;
+margin-top: 50px;
+  }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/res/hothotel.jpeg" alt="Los Angeles" width="275" height="183">
+       <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/res/fithotel.jpeg" alt="Chicago" width="259" height="194">
+       <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/res/coolhotel.jpeg" alt="New York" width="259" height="194">
+       <div class="carousel-caption">
+    <h3>Los Angeles</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</body>
+</html>
